@@ -1,2 +1,4 @@
-php-file-converters-tests
-=========================
+PHP File Converters: Test Branch
+===================
+
+Used for testing and demonstrating the converters.

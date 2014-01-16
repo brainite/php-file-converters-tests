@@ -1,0 +1,28 @@
+{
+    "title":"Manipulate RTF and convert to PDF",
+    "convert_paths":{
+        "path01":{
+            "title":"LibreOffice",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"libreoffice:default"
+            }
+        }
+    },
+    "derivatives":{
+        "jpg":{
+            "title":"LibreOffice Image 400x400",
+            "destination":"%.jpg",
+            "engines":{
+                "pdf->jpg":{
+                    "#engine":"Convert\\ImageMagick",
+                    "resize":"400x400",
+                    "colorspace":"sRGB",
+                    "flatten":1
+                }
+            },
+            "optimize":1
+        }
+    }
+}

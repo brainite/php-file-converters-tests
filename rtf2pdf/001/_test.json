@@ -1,0 +1,51 @@
+{
+    "title":"Manipulate RTF and convert to PDF",
+    "convert_paths":{
+        "benchmark":{
+            "title":"Manually Creating in Word 2013",
+            "destination":"%.pdf",
+            "engines":null
+        },
+        "path01":{
+            "title":"LibreOffice",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"libreoffice:default"
+            }
+        },
+        "path02":{
+            "title":"UnRtf + GhostScript",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"rtf->ps->pdf",
+                "rtf->ps":"unrtf:default"
+            }
+        }
+    },
+    "convert_path_overrides":{
+        "replace-string":{
+            "{{ header_right }}":"HeaderRight",
+            "{{ top_left }}":"TopLeft",
+            "{{ top_right }}":"TopRight",
+            "{{ middle_center }}":"Line1\nLine2",
+            "{{ footer_left }}":"FooterLeft"
+        }
+    },
+    "derivatives":{
+        "jpg":{
+            "title":"LibreOffice Image 400x400",
+            "destination":"%.jpg",
+            "engines":{
+                "pdf->jpg":{
+                    "#engine":"Convert\\ImageMagick",
+                    "resize":"400x400",
+                    "colorspace":"sRGB",
+                    "flatten":1
+                }
+            },
+            "optimize":1
+        }
+    }
+}
