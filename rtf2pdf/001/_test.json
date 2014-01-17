@@ -6,7 +6,7 @@
             "destination":"%.pdf",
             "engines":null
         },
-        "path01":{
+        "libreoffice":{
             "title":"LibreOffice",
             "destination":"%.pdf",
             "engines":{
@@ -14,7 +14,7 @@
                 "rtf->pdf":"libreoffice:default"
             }
         },
-        "path02":{
+        "unrtf":{
             "title":"UnRtf + GhostScript",
             "destination":"%.pdf",
             "engines":{
