@@ -1,5 +1,9 @@
 {
     "title":"Manipulate RTF and convert to PDF",
+    "tests":[
+        "001",
+        "002"
+    ],
     "convert_paths":{
         "benchmark":{
             "title":"Manually Creating in Word 2013",
