@@ -1,9 +1,20 @@
 {
-    "title":"Manipulate RTF and convert to PDF",
-    "tests":[
-        "001",
-        "002"
-    ],
+    "title":"RTF to PDF",
+    "tests":{
+        "001":{
+            "title":"Manipulate RTF with fixed position and convert",
+            "replace-string":{
+                "{{ header_right }}":"HeaderRight",
+                "{{ top_left }}":"TopLeft",
+                "{{ top_right }}":"TopRight",
+                "{{ middle_center }}":"Line1\nLine2",
+                "{{ footer_left }}":"FooterLeft"
+            }
+        },
+        "002":{
+            "title":"Basic convert"
+        }
+    },
     "convert_paths":{
         "benchmark":{
             "title":"Manually Creating in Word 2013",
@@ -26,15 +37,6 @@
                 "rtf->pdf":"rtf->ps->pdf",
                 "rtf->ps":"unrtf:default"
             }
-        }
-    },
-    "convert_path_overrides":{
-        "replace-string":{
-            "{{ header_right }}":"HeaderRight",
-            "{{ top_left }}":"TopLeft",
-            "{{ top_right }}":"TopRight",
-            "{{ middle_center }}":"Line1\nLine2",
-            "{{ footer_left }}":"FooterLeft"
         }
     },
     "derivatives":{
