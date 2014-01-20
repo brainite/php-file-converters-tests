@@ -1,5 +1,8 @@
 {
 "d39cbb034b0c73f0995b7ed914515e39":{"LibreOffice":"3.5"},
 "9cd240081a344f5629517d231ad93fcd":{"LibreOffice":"3.5","ReplaceStringNative":"0.1","php":"5.3.10-1ubuntu3.9"},
-"90c200942466e1fbb1ecf4f02737d8d8":{"gs":"9.05"}
+"90c200942466e1fbb1ecf4f02737d8d8":{"gs":"9.05"},
+"0c7e91194987144958a5b9b949897829":{"ReplaceStringNative":"0.1","php":"5.3.10-1ubuntu3.9"},
+"0e3649d1f72620f8d5f95aeb0868be07":{"gs":"9.05","unrtf":"0.19.2"},
+"eda8981683716453d349bf660869dbdf":{"ReplaceStringNative":"0.1","gs":"9.05","php":"5.3.10-1ubuntu3.9","unrtf":"0.19.2"}
 }
