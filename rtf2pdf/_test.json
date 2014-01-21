@@ -29,6 +29,14 @@
                 "rtf->pdf":"libreoffice:default"
             }
         },
+        "unoconv":{
+            "title":"Unoconv",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"unoconv:default"
+            }
+        },
         "unrtf":{
             "title":"UnRtf + GhostScript",
             "destination":"%.pdf",
