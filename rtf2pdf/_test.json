@@ -37,6 +37,14 @@
                 "rtf->pdf":"unoconv:default"
             }
         },
+        "abiword":{
+            "title":"AbiWord",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"abiword:default"
+            }
+        },
         "unrtf":{
             "title":"UnRtf + GhostScript",
             "destination":"%.pdf",

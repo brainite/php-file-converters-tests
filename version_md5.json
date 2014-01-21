@@ -6,5 +6,7 @@
 "0e3649d1f72620f8d5f95aeb0868be07":{"gs":"9.05","unrtf":"0.19.2"},
 "eda8981683716453d349bf660869dbdf":{"ReplaceStringNative":"0.1","gs":"9.05","php":"5.3.10-1ubuntu3.9","unrtf":"0.19.2"},
 "e3d94e619cebfe0429539bcf3ae31a73":{"ReplaceStringNative":"0.1","php":"5.3.10-1ubuntu3.9","python":"2.7.3","unoconv":"0.4"},
-"f8ae4d882bba943c5b248dcf29703ba2":{"python":"2.7.3","unoconv":"0.4"}
+"f8ae4d882bba943c5b248dcf29703ba2":{"python":"2.7.3","unoconv":"0.4"},
+"256de4f65ef3c85698edef113695ef10":{"ReplaceStringNative":"0.1","abiword":"2.9.2","php":"5.3.10-1ubuntu3.9"},
+"02674d1a958a60d076909452993fd07d":{"abiword":"2.9.2"}
 }
