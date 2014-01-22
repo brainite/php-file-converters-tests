@@ -45,6 +45,15 @@
                 "rtf->pdf":"abiword:default"
             }
         },
+        "ted":{
+            "title":"Ted + GhostScript",
+            "destination":"%.pdf",
+            "engines":{
+                "rtf~string":"native:default",
+                "rtf->pdf":"rtf->ps->pdf",
+                "rtf->ps":"ted:default"
+            }
+        },
         "unrtf":{
             "title":"UnRtf + GhostScript",
             "destination":"%.pdf",

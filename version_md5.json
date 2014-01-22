@@ -8,5 +8,8 @@
 "e3d94e619cebfe0429539bcf3ae31a73":{"ReplaceStringNative":"0.1","php":"5.3.10-1ubuntu3.9","python":"2.7.3","unoconv":"0.4"},
 "f8ae4d882bba943c5b248dcf29703ba2":{"python":"2.7.3","unoconv":"0.4"},
 "256de4f65ef3c85698edef113695ef10":{"ReplaceStringNative":"0.1","abiword":"2.9.2","php":"5.3.10-1ubuntu3.9"},
-"02674d1a958a60d076909452993fd07d":{"abiword":"2.9.2"}
+"02674d1a958a60d076909452993fd07d":{"abiword":"2.9.2"},
+"879848a87b7a6e141d60f20a3cfdce0d":{"ReplaceStringNative":"0.1","gs":"9.05","php":"5.3.10-1ubuntu3.9"},
+"5b214e6d6062791d794df7c591918f29":{"ReplaceStringNative":"0.1","gs":"9.05","php":"5.3.10-1ubuntu3.9","ted":"2.23"},
+"0788d6b96a473cbf55acfcc743a085bf":{"gs":"9.05","ted":"2.23"}
 }
