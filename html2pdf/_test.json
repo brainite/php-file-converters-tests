@@ -1,0 +1,46 @@
+{
+    "title":"HTML to PDF",
+    "tests":{
+        "001":{
+            "title":"Very Basic HTML4"
+        }
+    },
+    "convert_paths":{
+        "htmldoc":{
+            "title":"HtmlDoc",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"htmldoc:default"
+            }
+        },
+        "wkhtmltopdf":{
+            "title":"WkHtmlToPdf",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"wkhtmltopdf:default"
+            }
+        },
+        "xhtml2pdf":{
+            "title":"Xhtml2Pdf",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"xhtml2pdf:default"
+            }
+        }
+    },
+    "derivatives":{
+        "jpg":{
+            "title":"Image 400x400",
+            "destination":"%.jpg",
+            "engines":{
+                "pdf->jpg":{
+                    "#engine":"Convert\\ImageMagick",
+                    "resize":"400x400",
+                    "colorspace":"sRGB",
+                    "flatten":1
+                }
+            },
+            "optimize":1
+        }
+    }
+}
