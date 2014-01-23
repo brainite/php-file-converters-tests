@@ -66,7 +66,7 @@
     },
     "derivatives":{
         "jpg":{
-            "title":"LibreOffice Image 400x400",
+            "title":"Image 400x400",
             "destination":"%.jpg",
             "engines":{
                 "pdf->jpg":{
