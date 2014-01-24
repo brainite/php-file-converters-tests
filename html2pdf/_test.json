@@ -3,9 +3,17 @@
     "tests":{
         "001":{
             "title":"Very Basic HTML4"
+        },
+        "acid1":{
+            "title":"Acid 1 (5526c)"
         }
     },
     "convert_paths":{
+        "reference":{
+            "title":"Reference Versions",
+            "destination":"%.pdf",
+            "engines":null
+        },
         "htmldoc":{
             "title":"HtmlDoc",
             "destination":"%.pdf",
