@@ -3,9 +3,7 @@
 % 'BasicFonts': class PDFDictionary 
 1 0 obj
 % The standard fonts dictionary
-<< /F1 2 0 R
- /F2 3 0 R
- /F3 5 0 R >>
+<< /F1 2 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -16,49 +14,15 @@ endobj
  /Subtype /Type1
  /Type /Font >>
 endobj
-% 'F2': class PDFType1Font 
-3 0 obj
-% Font Helvetica-Bold
-<< /BaseFont /Helvetica-Bold
- /Encoding /WinAnsiEncoding
- /Name /F2
- /Subtype /Type1
- /Type /Font >>
-endobj
-% 'Annot.NUMBER1': class PDFDictionary 
-4 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.w3.org/TR/REC-CSS1#clear) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 156.074
- 772.6396
- 198.5915
- 783.8896 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'F3': class PDFType1Font 
-5 0 obj
-% Font Courier
-<< /BaseFont /Courier
- /Encoding /WinAnsiEncoding
- /Name /F3
- /Subtype /Type1
- /Type /Font >>
-endobj
 % 'Page1': class PDFPage 
-6 0 obj
+3 0 obj
 % Page dictionary
-<< /Annots [ 4 0 R ]
- /Contents 13 0 R
+<< /Contents 9 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 12 0 R
+ /Parent 8 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -69,88 +33,74 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R7': class PDFCatalog 
-7 0 obj
+% 'R4': class PDFCatalog 
+4 0 obj
 % Document Root
-<< /Outlines 9 0 R
+<< /Outlines 6 0 R
  /PageMode /UseNone
- /Pages 12 0 R
+ /Pages 8 0 R
  /Type /Catalog >>
 endobj
-% 'R8': class PDFInfo 
-8 0 obj
+% 'R5': class PDFInfo 
+5 0 obj
 << /Author ()
- /CreationDate (D:20140125125220+06'00')
+ /CreationDate (D:20140125125801+06'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (pisa HTML to PDF <http://www.htmltopdf.org>)
  /Subject ()
- /Title (CSS1 Test Suite: 5.5.26 clear) >>
+ /Title (display/box/float/clear test) >>
 endobj
-% 'R9': class PDFOutlines 
-9 0 obj
-<< /Count 2
- /First 10 0 R
- /Last 10 0 R
+% 'R6': class PDFOutlines 
+6 0 obj
+<< /Count 1
+ /First 7 0 R
+ /Last 7 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-10 0 obj
-<< /Count -1
- /Dest [ 6 0 R
+7 0 obj
+<< /Dest [ 3 0 R
  /Fit ]
- /First 11 0 R
- /Last 11 0 R
- /Parent 9 0 R
- /Title (CSS1 Test Suite: 5.5.26 clear) >>
+ /Parent 6 0 R
+ /Title (sing to me, erbarme dich ) >>
 endobj
-% 'Outline.2.0': class OutlineEntryObject 
-11 0 obj
-<< /Dest [ 6 0 R
- /Fit ]
- /Parent 10 0 R
- /Title (CSS1 Test Suite: 5.5.26 clear) >>
-endobj
-% 'R12': class PDFPages 
-12 0 obj
+% 'R8': class PDFPages 
+8 0 obj
 % page tree
 << /Count 1
- /Kids [ 6 0 R ]
+ /Kids [ 3 0 R ]
  /Type /Pages >>
 endobj
-% 'R13': class PDFStream 
-13 0 obj
+% 'R9': class PDFStream 
+9 0 obj
 % page stream
 << /Filter [ /ASCII85Decode
  /FlateDecode ]
- /Length 1364 >>
+ /Length 1376 >>
 stream
-Gb"/'>Ar7S'Ri"!s$35*Q3K&q;PGcMp9J'D0FYiS$[Z%N+A9)D7CPn[gpH9p+%>'TMP9+L5uF:/+R:!hSbr5C70F%m62VXu!;to1koBg2"+L?5"YJ[4#(H9dUCZD44hm`I'A/#9AQq'349sR]]*VD%!.bI1o:Tk4@Q@gP*\e&d@+9fGGqL;V:B<5ECUjph/5GYQo:(S.j+kH8jUthRc=R@W[&UrY*S9p%&4dpUV@sl4mstEkn1V>apNq,QTD%#^TOhVToR#%lIN=KXpAXu$4NdG)$Adq5iaRZT$(,G7g,=%L>H8qeNaX+Ig1G+-m7^r%\-1I2,#&hN@%o!T4jEA+^iU\bD(1(1B+e@+GS#-P.G'1(^`>/U@'nB`LG33u>tK]P>Z_]J=c"\$;CJ`te=G3WKsE3[@U,n4J+Lg"+):"(9);nbYH%bP/+sL8"b3EllX$8&%I6""HKB&9XJT.VDfo+-0OD\+TMitt;nA(#C^/2AKr3Y[g+IbJdJO^_<W/:]&CE0<8tM"LCfYPc!^T[/O.acac(pL^H_:s!JgCRd8Ztp[;bY7]Z$a=bk&5rsZl$qF/s\TIluqHi:(uJg(L[.5=eHOH^97\M15_,k,d@9BAJA[kQ,'JQXI<+qN#+F.n\1@qiPVtFf3'p:o->tXeam<GDZl(eLs8OD8UWT9fG_l,7nlNg:bLd%$47E7MG!&W),\M!,:*P^-ZLEN^d;j+>Qdn<B1l*_+e%-';8!Sg/@XZ#2Ket$M0*<0ji$B/LErUQ[@:=PZ!-1T53d/KIt*"YlcQ^mhS6Z_2'f$5B^[Qt:/Mp?5hgD<MQ3P?U18:2b=Z0m\R`<_HW+>"KVj_&KD6G\5iC]2YuMd46@na'5fl0YQf?>-Sd!-qoGIRb`ljVM!4^dP0-6A\ga%.fR7lb<f(Y6(olHbBZ3b51Y7.;TOF3_m+@jJ<U-VLH(/gIGl']`f<rrdtlW"R5]Sb^K8:j?WX5n;j8^eSF$Dljl/rGfmPoTAt'o-E\/"1T,=&i6-Da7/]./M-pS83h$)KF-flJ_Zch6"EdDruV<s&55;!cE`E;Up(_&39S%+G);QUpRU.G/0pG,?1Q`?eSI@KqD,1CDj_/2!76!$lQo?<XmAPjH\IblGZ1uMJ5'g+I-UTBC*l=Dn1+\ftKFfl5SV-asoYPs.?q)i=G7eVCuc"4rUJgnO1o4ZDnBm@Ym;JQYk"7KYPllW]@"-r>=+J:CW8cY.CGaI.b,ZN"6;"C)N=hc3j!RS>rleZ'Gk4Xn!4Tk^=`W)3ihg!-m_q3!9$F3Ptiaf4C]gD&6dh5"u4@:UJ0QA+bSJJ!nl/:R$k4BrqR7h$Ztn\&Y,cnN2fjE:WQf0OR$>+0f_.V#~>endstream
+Gb"/'ac>C>&A9%P5L^uEpRocm,,sZ<,XIa6"@8r.ljGDmZ2uV<,`g"Aq@kC#Q5=i2bfjKLE'po^f(/+>.T+H@ieQ2sPQUgt_Y:f#?k.ht@"JXihnq,+FRmb"nnaAgZZ(</Ke$EtHpJU752+`p`4%7sA3)/i1#ba:P0>6%G<BgG,.K"od]dt?m'Bt\CJX!Y*(C"G)$bqk1[rN3*UtOj\7.7b+Hf+$NZ_<\3R#;cJ]Rqd)6b19)mo<;-1K9G8Wr=.#lfYKSONS6B1f;L^ODYI3:UgT4iY,Fe3V=:jh-.d4Mj)o_q=<.Y*pAW^YeT))JrP?O4,Q^EF#424>=!5F?K?<2pt='phumL8<7mOTP$M^?q@#_!lf.@]J@g>KGh3.;KX8T]qK'->0%XNF.ALcQn;baT@_CQR:`F,UUIjdAcp6B@d5G4pBc4"0cbMRhssMsEJJe/mUejo.nbuYMGjYjdh6H>HWEe:fJ@RcojjqcAQiK9SoY"aSXiF7NUt!U>?4l8\qo[YF5fM8(aWM(q%kUd@WVKD?\l6BOuqX7^/',*^T8&AFT*/2YZ[k!8ltbQ5[oYVYA^^UO43$QIet4^22.hU2c+,V\*:I?'RC5do@*A3:\XM2$#,%K30qdk/OjXuC?_Bu>:JqYp;W*JEDG,=Zqk7uXioj^X!5,SFGG[dkTal=7u7rXI&D&B1*c^7CFmDX::H-o9O;\Wh7aIIU$R*u3ih30[Wp\VF&bN/d^Xb;H#)2Fbe%dV`$>)eo;c^f((buIE;db3SOmf4VdFT&OIbGkLjPuQUgOGr4.i\1:-It__KUf`91)tKJiYIrBM-A='Bfc0c8EOS[(Q!e-3Er"U#$#6qZ_j3]e"2N*;+ukcB6Pom9P86OcDVD:+_T:8WBRB%*-VK?(6Z_$'$<dS`EF"NZ@=gAN@hbb6C16[@@F/&;5/qMr93^F=bUD1dO,[YXoP,T5;Cgq]t\)^Y!3IYI9r5mTR>!f[0m5QY?p(Vk>Gr=r2<"W=7cA>3EJ1Sm]9MT\^HDMAgO`gVO2\V(qlhrp_'!BhdO+/Ak`VGI+5!(1ic3U4JqD?5TUD4k*:]b;F0qk8Mi4dmdITDNT&FB$8s7!hF%HhX-gTe@b^0X%dmj<N2clX!OQ1SCS,VFIguUFLQs*Ho&7'<p<,F]fs<-.eD68\nXlIOB-\$0lj)%pupgR\"kS[HIEr\]kUqP@SW2g)dN-@C=9Bf<Q&;7_'Y-Th:/Wh/U#>dWq8mu;6"uM3u!L^WDo[?kdE1T6#=rWNmXY;U,'cBC'&mR%(G=:Q4!.8dK5PGI&k&gY>o(Zdsu4UNU3$TOX^o>Z`XZ!8oXtRb@`<;69^G!OuND*UM\XF[n'SZL7[kA)W)ONFRgN"0`4i~>endstream
 endobj
 xref
-0 14
+0 10
 0000000000 65535 f
 0000000113 00000 n
-0000000233 00000 n
-0000000398 00000 n
-0000000585 00000 n
-0000000825 00000 n
-0000000984 00000 n
-0000001283 00000 n
-0000001418 00000 n
-0000001680 00000 n
-0000001804 00000 n
-0000001996 00000 n
-0000002128 00000 n
-0000002235 00000 n
+0000000209 00000 n
+0000000372 00000 n
+0000000649 00000 n
+0000000783 00000 n
+0000001044 00000 n
+0000001166 00000 n
+0000001291 00000 n
+0000001396 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\011f\017\335\015\0127\252\201H;\317r\035\330!) (\011f\017\335\015\0127\252\201H;\317r\035\330!)] 
+ [(\011\216\(;\)F@\354\310\2675\271\3027\304H) (\011\216\(;\)F@\354\310\2675\271\3027\304H)] 
 
- /Info 8 0 R
- /Root 7 0 R
- /Size 14 >>
+ /Info 5 0 R
+ /Root 4 0 R
+ /Size 10 >>
 startxref
-3715
+2887
 %%EOF
