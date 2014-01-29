@@ -34,6 +34,13 @@
             "engines":{
                 "html->pdf":"xhtml2pdf:default"
             }
+        },
+        "libreoffice":{
+            "title":"LibreOffice",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"libreoffice:default"
+            }
         }
     },
     "derivatives":{
