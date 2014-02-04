@@ -35,6 +35,13 @@
                 "html->pdf":"xhtml2pdf:default"
             }
         },
+        "phantomjs":{
+            "title":"PhantomJs",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"phantomjs:default"
+            }
+        },
         "libreoffice":{
             "title":"LibreOffice",
             "destination":"%.pdf",
