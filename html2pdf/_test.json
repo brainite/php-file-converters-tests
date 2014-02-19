@@ -50,6 +50,15 @@
             }
         }
     },
+    "optimize":{
+        "optimize":true,
+        "engines":{
+            "pdf~optimize":{
+                "#engine":"Optimize\\Pdftk",
+                "remove-id":"1"
+            }
+        }
+    },
     "derivatives":{
         "jpg":{
             "title":"Image 400x400",
