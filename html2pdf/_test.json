@@ -49,6 +49,13 @@
                 "html->pdf":"docverter:default"
             }
         },
+        "pandoc":{
+            "title":"Pandoc",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"pandoc:default"
+            }
+        },
         "libreoffice":{
             "title":"LibreOffice",
             "destination":"%.pdf",
