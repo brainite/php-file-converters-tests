@@ -42,6 +42,13 @@
                 "html->pdf":"phantomjs:default"
             }
         },
+        "docverter":{
+            "title":"Docverter",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"docverter:default"
+            }
+        },
         "libreoffice":{
             "title":"LibreOffice",
             "destination":"%.pdf",

@@ -15,5 +15,6 @@
 "252476b4ac334ccdd1620039e4127dcd":{"htmldoc":"1.8.27"},
 "11b67b1b1e2759f5ac7836869e19de0d":{"xhtml2pdf":"3.0.32"},
 "77b1de3db6aab2c390ca3a1180e9a79b":{"wkhtmltopdf":"0.11.0"},
-"cfe751122d54e13831558afcdcd67163":{"phantomjs":"1.9.6"}
+"cfe751122d54e13831558afcdcd67163":{"phantomjs":"1.9.6"},
+"206cd92294e665696622b175cea57e5f":{"docverter":"REST"}
 }
