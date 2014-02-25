@@ -1,0 +1,42 @@
+{
+    "title":"Markdown to HTML",
+    "tests":{
+        "daringfireball":{
+            "title":"Original Markdown Spec"
+        }
+    },
+    "convert_paths":{
+        "pandoc":{
+            "title":"Pandoc",
+            "destination":"%.html",
+            "engines":{
+                "md->html":"pandoc:default"
+            }
+        }
+    },
+    "optimize":{
+        "optimize":0,
+        "engines":{
+            "pdf~optimize":{
+                "#engine":"Optimize\\Pdftk",
+                "remove-id":"1",
+                "remove-metadata":"1"
+            }
+        }
+    },
+    "derivatives":{
+        "jpg":{
+            "title":"Image 400x400",
+            "destination":"%.jpg",
+            "engines":{
+                "html->jpg":{
+                    "#engine":"Convert\\PhantomJs",
+                    "output-width":"400",
+                    "output-height":"400",
+                    "output-zoom":1
+                }
+            },
+            "optimize":1
+        }
+    }
+}
