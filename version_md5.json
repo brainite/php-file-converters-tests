@@ -17,5 +17,6 @@
 "77b1de3db6aab2c390ca3a1180e9a79b":{"wkhtmltopdf":"0.11.0"},
 "cfe751122d54e13831558afcdcd67163":{"phantomjs":"1.9.6"},
 "206cd92294e665696622b175cea57e5f":{"docverter":"REST"},
-"6857d828d287ff9cc0c2f472c1d2771a":{"pandoc":"1.9.1.1","pdflatex":"3.1415926-1.40.10-2.2"}
+"6857d828d287ff9cc0c2f472c1d2771a":{"pandoc":"1.9.1.1","pdflatex":"3.1415926-1.40.10-2.2"},
+"27d580315f762030deedd2cb05df9738":{"mpdf":"5.7.1"}
 }

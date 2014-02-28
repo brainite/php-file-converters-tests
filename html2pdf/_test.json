@@ -56,6 +56,13 @@
                 "html->pdf":"pandoc:default"
             }
         },
+        "mpdf":{
+            "title":"mPDF",
+            "destination":"%.pdf",
+            "engines":{
+                "html->pdf":"mpdf:default"
+            }
+        },
         "libreoffice":{
             "title":"LibreOffice",
             "destination":"%.pdf",
