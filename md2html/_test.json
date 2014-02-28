@@ -17,11 +17,7 @@
     "optimize":{
         "optimize":0,
         "engines":{
-            "pdf~optimize":{
-                "#engine":"Optimize\\Pdftk",
-                "remove-id":"1",
-                "remove-metadata":"1"
-            }
+            "html~optimize":null
         }
     },
     "derivatives":{
