@@ -1,0 +1,28 @@
+{
+    "title":"HTML Optimization",
+    "tests":{
+        "acid1":{
+            "title":"Acid 1 (5526c)"
+        },
+        "word001":{
+            "title":"Simple Word docx saved to HTML"
+        }
+    },
+    "convert_paths":{
+        "fcbasic":{
+            "title":"FileConverter basic cleanup",
+            "destination":"%.html",
+            "engines":{
+                "html~optimize":{
+                    "#engine":"Optimize\\FcWordHtml"
+                }
+            }
+        },
+        "optimize":{
+            "optimize":0
+        },
+        "derivatives":{
+            
+        }
+    }
+}
