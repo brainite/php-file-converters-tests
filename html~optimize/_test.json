@@ -13,16 +13,14 @@
             "title":"FileConverter basic cleanup",
             "destination":"%.html",
             "engines":{
-                "html~optimize":{
-                    "#engine":"Optimize\\FcWordHtml"
-                }
+                "html~optimize":"email:archive"
             }
-        },
-        "optimize":{
-            "optimize":0
-        },
-        "derivatives":{
-            
         }
+    },
+    "optimize":{
+        "optimize":0
+    },
+    "derivatives":{
+        
     }
 }
