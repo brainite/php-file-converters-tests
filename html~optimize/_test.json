@@ -15,6 +15,13 @@
             "engines":{
                 "html~optimize":"email:archive"
             }
+        },
+        "htmlawed-safe":{
+            "title":"HtmLawed Safe",
+            "destination":"%.html",
+            "engines":{
+                "html~optimize":"htmlawed:safe"
+            }
         }
     },
     "optimize":{
